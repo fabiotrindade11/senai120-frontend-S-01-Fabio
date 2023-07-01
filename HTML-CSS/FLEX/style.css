@@ -1,0 +1,65 @@
+.container {
+    height: 300px;
+    width: 99%;
+    border: 5px solid black;
+}
+
+
+.container1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box1,.box2,.box3,.box4,
+.box5,.box6,.box7,.box8,.box9 {
+    height: 100px;
+    width: 300px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: greenyellow;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box4 {
+    background-color: red;
+}
+
+.box5 {
+    background-color: blue;
+}
+
+.box6 {
+    background-color: greenyellow;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box7 {
+    background-color: red;
+}
+
+.box8 {
+    background-color: blue;
+}
+
+.box9 {
+    background-color: greenyellow;
+}

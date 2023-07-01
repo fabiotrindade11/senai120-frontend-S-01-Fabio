@@ -1,0 +1,41 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: white;
+}
+
+.logo{
+    width: 10em;
+}
+.barra{
+    background-color: black;
+    height: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    color: white;
+}
+
+
+.facebook{
+    display: flex;
+    justify-content: center; 
+    
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.twitter{
+    display: flex;
+    justify-content: center;
+    
+}

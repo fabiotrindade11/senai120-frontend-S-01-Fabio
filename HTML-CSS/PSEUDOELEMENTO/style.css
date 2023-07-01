@@ -1,0 +1,25 @@
+h1::before{
+    content: "*!";
+    
+}
+
+h1::after{
+    content: "@";
+}
+
+h1::first-letter{
+    color: brown;
+}
+
+p::first-line{
+    font-size: 2em;
+}
+
+p::selection{
+    color: brown;
+}
+
+input::placeholder{
+    font-style: italic;
+    color: brown;
+}

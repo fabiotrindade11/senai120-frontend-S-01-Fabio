@@ -1,0 +1,42 @@
+.formulario {
+    background-color: aquamarine;
+}
+
+label {
+    display: block;
+
+}
+
+.nome {
+    width: 300px;
+    margin: 10px 0px 10px 0px;
+}
+
+.sobrenome {
+    width: 300px;
+    margin: 10px 0px 10px 0px;
+}
+
+.datanasc {
+    width: 300px;
+    margin: 0px 0px 0px 0px;
+}
+
+.CPF {
+    width: 300px;
+    margin: 10px 0px 10px 0px;
+}
+
+.Telefone {
+    width: 300px;
+    margin: 10px 0px 10px 0px;
+}
+
+.Senha {
+    width: 300px;
+    margin: 10px 0px 10px 0px;
+}
+
+.botao {
+    margin: 10px 0px 10px 0px;
+}

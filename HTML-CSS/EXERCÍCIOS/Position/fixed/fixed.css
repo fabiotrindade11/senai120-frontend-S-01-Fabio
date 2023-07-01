@@ -1,0 +1,13 @@
+body {
+    height: 2000px;
+    width: 2000px;
+  
+
+}
+
+.boxfixed {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: fixed;
+}

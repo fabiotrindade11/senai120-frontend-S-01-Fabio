@@ -1,0 +1,83 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-image: url(775cfa19c10ac84d6b67ec14d6a2457b1fca05dc_hq.gif);
+    background-repeat: no-repeat;
+    background-size: 140%;
+}
+
+
+.cabecalho{
+    background-color: #ffc8d2;
+    height: 270px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+.score{
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+
+}
+
+
+.principal{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 60em;
+    height: 60em;
+    display: grid;
+    grid-template-areas:
+    "b1 b2 b3"
+    "b4 b5 b6"
+    "b7 b8 b9";
+}
+
+.botão{
+  width: 90%;
+  height: 90%;
+  font-size: 10em;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+.v1{
+    grid-area: b1;
+}
+.v2{
+    grid-area: b2;
+}
+.v3{
+    grid-area: b3;
+}
+.v4{
+    grid-area: b4;
+}
+.v5{
+    grid-area: b5;
+}
+.v6{
+    grid-area: b6;
+}
+.v7{
+    grid-area: b7;
+}
+.v8{
+    grid-area: b8;
+}
+.v9{
+    grid-area: b9;
+}

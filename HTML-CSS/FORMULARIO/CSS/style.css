@@ -1,0 +1,38 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.cabecalho {
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+}
+
+.principal {
+    height: 500px;
+    width: 25%;
+    background-color: yellow;
+    margin: 200px auto;
+}
+
+.formulario {
+    height: 80%;
+    width: 100%;
+    padding-top: 20%;
+    background-color: aqua;
+}
+
+.container {
+    display: block;
+    margin-left: 20%;
+    height: 33%;
+}
+
+label,
+input {
+    display: block;
+    margin: 20px;
+}

@@ -1,0 +1,110 @@
+:root{
+--corhtml: #A79687;     /* cor da página exercício 1 */
+
+--tamanholetraheader:5em; /* tamanho do header exercício 5 */
+--alturaheader:10em;
+--cordoheader:#6E4E38;
+
+--cordomain:#F6F6EE;
+
+--cortexto1:dimgray;       /* estilização fonte principal exercício 2 */ 
+--tamanhotexto1:4em;    
+--tamanhodivtexto1:8em;
+
+--cortexto2: black;     /* cor do texto secundário exercício 7 */
+--tamanhotexto2:2em;
+--alturadivtexto2:8em;      /* altura de seção exercício 6 */
+--bordatexto2:10px solid #675E56;   /* estilização borda exercício 3 */ 
+--cordivtexto2:#B2E5E5;
+
+--tamanhowidthlogo:4em;   /* tamanho do ícone de redes sociais exercício 4 */
+}
+
+html{
+    width: 100%;
+    height: 100em;
+    background-color: var(--corhtml);  
+}
+
+
+
+.principal{
+    
+    height: 100em;
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabecalho{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:var(--cordoheader);
+height: var(--alturaheader);
+width: 100%;
+}
+
+.textohead{
+    font-size: var(--tamanholetraheader);
+    font-weight: bold;
+}
+
+.principal{
+    background-color: var(--cordomain);
+    width: 70em;
+}
+
+.texto1{
+font-size: var(--tamanhotexto1);
+color: var(--cortexto1);
+width: 100%;
+
+}
+
+.texto2{
+    font-size: var(--tamanhotexto2);
+    text-align: justify;
+    color: var(--cortexto2);
+    height: var(--alturadivtexto2);
+    margin-left: 0.5em;
+margin-right: 0.5em;
+
+}
+
+.texto3{
+    font-size: var(--tamanhotexto2);
+    text-align: justify;
+    color: var(--cortexto2);
+    height: var(--alturadivtexto2);
+    margin-top: 1em;
+    border-top:var(--bordatexto2) ;
+    border-bottom:var(--bordatexto2) ;
+    border-left:var(--bordatexto2) ;
+    border-right:var(--bordatexto2) ;
+    background-color: #F6F6EE;
+    
+}
+.icone{
+    width: var(--tamanhowidthlogo);
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.titulo2{
+    text-align: center;
+    margin-top: 5.5em;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    background-color: var(--cordoheader);
+    height: 10em;
+}
+    
+
+

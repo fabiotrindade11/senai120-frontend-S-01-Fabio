@@ -1,0 +1,25 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 50em;
+    transition: 1s;
+}
+
+img:hover{
+    width:55em ;
+}
+
+h1::after{
+    content: "R$ 899";
+    color: gainsboro;
+}

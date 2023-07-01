@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+.cabecalho{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+}
+.marca{
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+}

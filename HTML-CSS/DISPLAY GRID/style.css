@@ -1,0 +1,118 @@
+body,
+html {
+
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 {
+    background-color: orange;
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container2 {
+    background-color: orange;
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+
+}
+
+.box2 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.container3 {
+    background-color: orange;
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 
+    "caixa1 caixa2 caixa3"
+    "caixa4 caixa5 caixa6" 
+    "caixa7 caixa8 caixa9" 
+    ;
+
+}
+
+.b1{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    grid-area: caixa1;
+}
+.b2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    grid-area: caixa2;
+}
+.b3 {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    grid-area: caixa3;
+}
+.b4 {
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    grid-area: caixa4;
+}
+.b5 {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    grid-area: caixa5;
+}
+.b6 {
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    grid-area: caixa6;
+}
+.b7 {
+    height: 200px;
+    width: 200px;
+    background-color: palevioletred;
+    grid-area: caixa7;
+}
+.b8 {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    grid-area: caixa8;
+}
+.b9 {
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    grid-area: caixa9;
+}

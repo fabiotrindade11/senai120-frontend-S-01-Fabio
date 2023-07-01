@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    height: 2000px;
+}
+.box_1{
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 200px;
+    background-color:red;
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    right: 100px;
+}
+.box_11{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    position: absolute;
+    top: 50px;
+}
+.box_111{
+    height: 50px;
+    width: 50px;
+    background-color:pink;
+    position: absolute;
+    top: 50px; 
+}
+.box_1111{
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    position: static;
+    top: 10px; 
+}

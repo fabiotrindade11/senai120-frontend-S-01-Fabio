@@ -1,0 +1,29 @@
+.box_1 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    z-index: 2;
+    
+   
+}
+
+.box_2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    
+  
+    
+}
+
+
+
+.box_3 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+   
+    
+    z-index: 0;
+}
+
